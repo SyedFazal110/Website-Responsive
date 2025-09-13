@@ -27,6 +27,8 @@ nav{
     padding: 0px 80px;
     position: fixed;
     top: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .logo{
@@ -230,3 +232,82 @@ footer{
     background: #262626;
     padding: 50px 100px;
 }
+
+.newsLetter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.newsLetter div{
+    flex-basis: 50%;
+}
+
+.ntext{
+    text-align: center;
+}
+
+.newsLetter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.newsLetter p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.newsLetter label{
+    position: relative;
+}
+
+.newsLetter input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.newsLetter button{
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    width: 30%;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.f-contact div{
+    flex-basis: 20%;
+}
+
+.f-contact p{
+    line-height: 2em;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.f-contact p:hover{
+    color: white;
+}
+
